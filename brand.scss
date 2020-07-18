@@ -1,0 +1,295 @@
+*{
+    position: relative;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    height: 300px;
+    background-color: $color_blue;
+    .icon{
+        width: 150px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+    }
+}
+@media(max-width:768px){
+    .maxwidth{
+    margin-left: auto;
+    margin-right: auto;
+    }
+}
+$color_yellow: #ffb336;
+$color_blue: #27232F;
+$color_white: #f3f7f7;
+$color_grey: #333;
+
+$font_base_size: 10px;
+
+$button_border_width: 1px;
+@font-face{
+    font-family:Fjalla One;
+    src: url(./fonts/FjallaOne-Regular.ttf);
+}
+.content{
+    .content_white{
+        font-family: "Fjalla One", sans-serif, 微軟正黑體;
+        padding: 50px;
+        background-color: $color_white;
+        color: $color_blue;
+        h5{
+            margin-top: 10px;
+        }
+        h1{
+            font-size: 40px;
+            .small_english{
+                font-size: 24px;
+            }
+        }
+        h2{
+            font-size: 30px;
+            .small_english{
+                font-size: 16px;
+            }
+        }
+        h3{
+            font-size: 20px;
+            .small_english{
+                font-size: 12px;
+            }
+        }
+        .titlehr{
+            width: 100px;
+            border-bottom: solid 5px;
+            border-color: $color_yellow;
+        }
+        .small_english{
+            letter-spacing: 1px;
+            margin-top: -15px;
+            color: $color_blue  ;
+        }
+        .button{
+            padding: 5px 25px;
+            display: inline-block;
+            border: solid 1px #333;
+            margin-right: 10px;
+            letter-spacing: 2px;
+            font-size: 15px;
+            font-weight: bold;
+            border-color: $color_blue;
+        }
+        .button_blue{
+            background-color:$color_blue;
+            color:$color_white;
+            font-weight: 500;
+        }
+        .button_yellow{
+            background-color: $color_yellow;
+            color:$color_blue;
+        }
+        .colorchip{
+            .color_tag,.color_block{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .color_tag{
+                width: 60px;
+            }
+            .color_block{
+                border: solid 2px;
+                width: 30px;
+                height: 30px;
+            }
+            .color_block_yellow{
+                background-color: $color_yellow;
+            }
+            .color_block_blue{
+                background-color: $color_blue;
+            }
+            .color_block_white{
+                background-color: $color_white;
+            }
+            .color_block_grey{
+                background-color: $color_grey;
+            }
+        }
+    }
+
+    .content_grey{ 
+            font-family: "Fjalla One", sans-serif, 微軟正黑體;
+            padding: 50px;
+            background-color: #333;
+            color: $color_white;
+            width: 100%;
+            height: 100%;
+        h5{
+            margin-top: 10px;
+        }
+        h1{
+            font-size: 40px;
+            .small_english{
+                font-size: 24px;
+            }
+        }
+        h2{
+            font-size: 30px;
+            .small_english{
+                font-size: 16px;
+            }
+        }
+        h3{
+            font-size: 20px;
+            .small_english{
+                font-size: 12px;
+            }
+        }
+        h1,h2,h3{
+                font-weight: 500;
+            }
+        .titlehr{
+            width: 100px;
+            border-bottom: solid 5px;
+            border-color: $color_yellow;
+        }
+        .small_english{
+            letter-spacing: 1px;
+            margin-top: -15px;
+            color: $color_yellow ;
+        }
+        .button{
+            padding: 5px 25px;
+            display: inline-block;
+            border: solid 1px #333;
+            margin-right: 10px;
+            letter-spacing: 2px;
+            font-size: 15px;
+            font-weight: 500;
+            border-color: $color_white;
+        }
+        .button_blue{
+            background-color:$color_blue;
+            color:$color_white;
+            font-weight: 500;
+        }
+        .button_yellow{
+            background-color: $color_yellow;
+            color:$color_blue;
+            font-weight: bold;
+        }
+        .colorchip{
+            .color_tag,.color_block{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .color_tag{
+                width: 60px;
+            }
+            .color_block{
+                border: solid 2px;
+                width: 30px;
+                height: 30px;
+            }
+            .color_block_yellow{
+                background-color: $color_yellow;
+            }
+            .color_block_blue{
+                background-color: $color_blue;
+            }
+            .color_block_white{
+                background-color: $color_white;
+            }
+            .color_block_grey{
+                background-color: $color_grey;
+            }
+        }
+    }
+    .content_blue{
+            font-family: "Fjalla One", sans-serif, 微軟正黑體;
+            padding: 50px;
+            background-color: $color_blue;
+            color: $color_white;
+        h5{
+            margin-top: 10px;
+        }
+        h1{
+            font-size: 40px;
+            .small_english{
+                font-size: 24px;
+            }
+        }
+        h2{
+            font-size: 30px;
+            .small_english{
+                font-size: 16px;
+            }
+        }
+        h3{
+            font-size: 20px;
+            .small_english{
+                font-size: 12px;
+            }
+        }
+        h1,h2,h3{
+                font-weight: 500;
+            }
+        .titlehr{
+            width: 100px;
+            border-bottom: solid 5px;
+            border-color: $color_yellow;
+        }
+        .small_english{
+            letter-spacing: 1px;
+            margin-top: -15px;
+            color: $color_yellow ;
+        }
+        .button{
+            padding: 5px 25px;
+            display: inline-block;
+            border: solid 1px #333;
+            margin-right: 10px;
+            letter-spacing: 2px;
+            font-size: 15px;
+            font-weight: 500;
+            border-color: $color_white;
+        }
+        .button_blue{
+            background-color:$color_blue;
+            color:$color_white;
+            font-weight: 500;
+        }
+        .button_yellow{
+            background-color: $color_yellow;
+            color:$color_blue;
+            font-weight: bold;
+        }
+        .colorchip{
+            .color_tag,.color_block{
+                display: inline-block;
+                vertical-align: middle;
+            }
+            .color_tag{
+                width: 60px;
+            }
+            .color_block{
+                border: solid 2px;
+                width: 30px;
+                height: 30px;
+            }
+            .color_block_yellow{
+                background-color: $color_yellow;
+            }
+            .color_block_blue{
+                background-color: $color_blue;
+            }
+            .color_block_white{
+                background-color: $color_white;
+            }
+            .color_block_grey{
+                background-color: $color_grey;
+            }
+        }
+    }
+}
